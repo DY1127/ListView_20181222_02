@@ -9,6 +9,14 @@ public class Members {
 //    차후에 이런식으로 활용 연습
     private String profileInageUrl;
 
+//    생성자를 이용해서 이름/ 주소/ url 한꺼번에 입력
+
+    public Member(String name, String address, String profileInageUrl){
+        this.name = name;
+        this.address = address;
+        this.profileInageUrl = profileInageUrl;
+    }
+
 //    각 변수의 값을 조회하거나 세팅하는 getter/ setter
 
 
